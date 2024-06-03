@@ -6,9 +6,15 @@ package org.example;
 public class prac {
     public static void main(String[] args) {
 
-        int a = 10;
+        int a = 10;     //오직 정수만 들어갈 수 있는 변수  a에 10이라는 값을 넣겠다.
 
-        int[] arr = new int[5];
+        //int[] arr = new int[5]; //new 설계도;
+        // '정수들'(int[])모양으로 만들어진 객체의 리모컨만 들어갈 수 있는 arr라는 변수를 만들자 마자
+        // arr라는 변수에 int[4] 모양으로 객체를 만든 뒤 리모컨을 넣겠다.
+
+        int [] arr;
+        arr = new int[4];
+
         arr[0] = 10;
         arr[1] = 20;
         arr[2] = 30;
@@ -42,6 +48,8 @@ public class prac {
 //        System.out.println(sum);
 
         System.out.println("Hello");
+
+
     }
 }
 
