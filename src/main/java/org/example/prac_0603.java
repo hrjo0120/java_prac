@@ -186,7 +186,7 @@ public class prac_0603 {
 //        player player1 = new player();
 //        player1.name = "홍길동";
 //
-//        String player2 = "홍길순";
+//        String player2.name = "홍길순";
 //
 //        System.out.println(player1.name);
 //        System.out.println(player2);
@@ -253,11 +253,11 @@ public class prac_0603 {
 //        System.out.println(b.name);     //null
 //        System.out.println(b.isMarried);//false
 
-        사람 a = new 사람();
-        a.age = 23;   //빈 공간을 채워넣으려고 만들어 둔것
-        a.name = "김철수";
-        a.isMarried = true;
-        a.introduce(); // 실행하면 끝
+//        사람 a = new 사람();
+//        a.age = 23;   //빈 공간을 채워넣으려고 만들어 둔것
+//        a.name = "김철수";
+//        a.isMarried = true;
+//        a.introduce(); // 실행하면 끝
 
     }
 }
@@ -290,12 +290,12 @@ public class prac_0603 {
 //
 //    // 문제8 함수
 //    // void run() {
-//    //   System.out.println("자동차가 최고속력 " + max_speed + "km로 달립니다.");
+//    //   System.out.println("자동차가 최고속력 " + this.max_speed + "km/h로 달립니다.");
 //    // }
 //
 //    // 문제9 함수
 //    // void run() {
-//    //   System.out.println(car_num + "번 자동차가 최고속력 " + max_speed + "km로 달립니다.");
+//    //   System.out.println(this.car_num + "번 자동차가 최고속력 " + max_speed + "km/h로 달립니다.");
 //    // }
 //}
 //
@@ -303,20 +303,18 @@ public class prac_0603 {
 //    String name;
 //}
 
-class 사람 {
-    int age;
-    String name;
-    boolean isMarried;
-    //boolean isMarried = true;     //이렇게 작성할 경우엔 항상 true로 뜬다. //
-    // 객체 만들어질때 바로 선언됨
-
-    void introduce() {
-        System.out.println("introduce 실행됨");
-        System.out.println("안녕, 나는 23살 기혼, 김철수야");
-    }
-
-
-}
+//class 사람 {
+//    int age;
+//    String name;
+//    boolean isMarried;
+//    //boolean isMarried = true;     //이렇게 작성할 경우엔 항상 true로 뜬다. //
+//    // 객체 만들어질때 바로 선언됨
+//
+//    void introduce() {
+//        System.out.println("introduce 실행됨");
+//        System.out.println("안녕, 나는 23살 기혼, 김철수야");
+//    }
+//}
 
 
 
