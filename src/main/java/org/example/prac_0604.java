@@ -2,8 +2,8 @@
 //오전
 package org.example;
 
-//public class prac_0604 {
-//    public static void main(String[] args) {    //메인메소드가 실행 기준
+public class prac_0604 {
+    public static void main(String[] args) {    //메인메소드가 실행 기준
         //오전
 //        사람 a = new 사람();
 //        a.age = 23;
@@ -33,8 +33,8 @@ package org.example;
 //
 //        //System.out.println(a + b);  //a, b의 수명 , 메인 메소드 안에서는 a, b가 뭔지 알아 차릴 수 있는 능력이 없다.
 //
-//    }
-//}
+    }
+}
 //
 ////오후
 //class 계산기 {
