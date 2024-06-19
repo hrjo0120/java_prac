@@ -48,12 +48,12 @@ public class prac_0618_3 {
     }
 }
 
-class 무기 {
-
-}
-
-class 칼 {
-
-}
+//class 무기 {
+//
+//}
+//
+//class 칼 {
+//
+//}
 
 
