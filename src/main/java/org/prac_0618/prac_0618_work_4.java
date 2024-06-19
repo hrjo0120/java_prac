@@ -46,6 +46,33 @@ class 전사 {
         a무기.작동(this.이름);
     }
 }
+class 무기 {
+    void 작동(String 공격자이름) {
+
+    }
+
+    void 방어 () {    // 오버라이드 선택
+        System.out.println("무기 방어");
+    }
+}
+
+class 칼 extends 무기 {
+    void 작동(String 공격자이름) {     //구상메소드, 매개변수 명은 달라도 상관없음, 근데 같아야 어떤 데이터가 넘어왔는지 알 수 있음. 기본적으로 매개변수 타입만 같으면 됨.
+        System.out.println(공격자이름 + "가 칼로 공격합니다.");
+    }
+
+    void 방어 () {
+      System.out.println("칼 방어");
+    }
+}
+
+class 활 extends 무기 {
+    void 작동(String 공격자이름) {
+        System.out.println(공격자이름 + "가 활로 공격합니다.");
+    }
+
+
+
 
 //abstract class 무기 {
 //    abstract void 작동(String 공격자이름);    //버튼 유지용으로 만들어 놓은 것, 오버라이드 필수
@@ -61,25 +88,25 @@ class 전사 {
 //    abstract void 작동(String 공격자이름); //abstract가 붙을 경우 구현부가 없어 자식클래스에서 무조건 오버라이드하여 사용해야한다.
 //}
 
-interface 무기 {  //
-    void 작동(String 공격자이름);
-}
-
-interface 무기2 {
-    void 작동(String 공격자);
-}
-
-class 칼 implements 무기, 무기2 {    //interface는 다중상속이 가능하다. why? 무조건 오버라이드해서 사용해야하게 때문에 헷갈릴 일이 없다.
-    public void 작동(String 공격자이름) {
-        System.out.println(공격자이름 + "가 칼로 공격합니다.");
-    }
-}
-
-class 활 implements 무기 {
-    public void 작동(String 공격자이름) {
-        System.out.println(공격자이름 + "가 활로 공격합니다.");
-    }
-}
+//interface 무기 {  //
+//    void 작동(String 공격자이름);
+//}
+//
+//interface 무기2 {
+//    void 작동(String 공격자);
+//}
+//
+//class 칼 implements 무기, 무기2 {    //interface는 다중상속이 가능하다. why? 무조건 오버라이드해서 사용해야하게 때문에 헷갈릴 일이 없다.
+//    public void 작동(String 공격자이름) {
+//        System.out.println(공격자이름 + "가 칼로 공격합니다.");
+//    }
+//}
+//
+//class 활 implements 무기 {
+//    public void 작동(String 공격자이름) {
+//        System.out.println(공격자이름 + "가 활로 공격합니다.");
+//    }
+//}
 
 //class 칼 extends 무기 {
 //    void 작동(String 공격자이름) {     //구상메소드, 매개변수 명은 달라도 상관없음, 근데 같아야 어떤 데이터가 넘어왔는지 알 수 있음. 기본적으로 매개변수 타입만 같으면 됨.
