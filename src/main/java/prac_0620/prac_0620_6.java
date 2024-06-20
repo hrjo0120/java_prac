@@ -27,7 +27,6 @@ class 사람1 extends Object {  //최상위 클래스인 Object 를 상속받으
 
     //객체가 문장형으로 취급되어야 할 때 자바에서 알아서 표출을 해준다.
 
-
     사람1(String name, int age) {
         this.name = name;
         this.age = age;
