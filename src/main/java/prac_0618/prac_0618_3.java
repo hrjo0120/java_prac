@@ -1,4 +1,4 @@
-package org.prac_0618;
+package prac_0618;
 
 // 문제 : `무기 a무기 = new 칼();` 가 실행되는 세부과정을 자세히 쓰세요.
 public class prac_0618_3 {

@@ -1,4 +1,4 @@
-package org.prac_0618;
+package prac_0618;
 
 public class prac_0618_2 {
     public static void main(String[] args) {

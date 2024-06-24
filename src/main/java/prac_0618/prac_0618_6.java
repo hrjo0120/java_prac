@@ -1,4 +1,4 @@
-package org.prac_0618;
+package prac_0618;
 // 문제 : 정수 i가 가지고 있는 10을 double 형 변수에 넣고 해당 변수의 값을 다시 i에 넣는 코드를 작성해주세요.
 public class prac_0618_6 {
     public static void main(String[] args) {

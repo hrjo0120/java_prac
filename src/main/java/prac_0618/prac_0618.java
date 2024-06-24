@@ -23,7 +23,7 @@
   - 복잡한 상속을 사용하지 않는다는 것의 의미 : 모든 오리 계열 클래스들은 부모클래스가 오리 클래서 여야 한다.
  */
 
-package org.prac_0618;
+package prac_0618;
 
 public class prac_0618 {
     public static void main(String[] args) {

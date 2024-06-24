@@ -17,7 +17,7 @@ package prac_0621;
 
 import java.util.Scanner;
 
-public class Main2 {
+public class bj_11382 {
     public static void main(String[] args) {
         long sum = 0;
         Scanner sc = new Scanner(System.in);
